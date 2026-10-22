@@ -6,9 +6,8 @@ URL: https://tpwoolley.github.io/Team18.io/
 
 ## Roadmap
     - [x] Initial Layout and design.
-    - [ ] Get Inital Feedback
     - [ ] Style Website
-    - [ ] More Feedback
+    - [ ] Feedback
     - [ ] Add final documents and links
     - [ ] Publish final website
 

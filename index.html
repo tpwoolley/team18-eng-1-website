@@ -3,39 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group Website</title>
+    <title>Team 18 ENG1 Public Portal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
+<header>
+    <h1>Team 18 ENG1 Group Project</h1>
+    <p>This is the public portal for Team 18's ENG1 group project.</p>
+</header>
+
 <body>
-    <h1>This is our Group Website</h1>
-    <h2><u><b> All links are currently placeholders for the actual deliverables.</b></u></h2>
 
-    <h2>Team Members</h2>
-    <ul>
-        <li>Aidan Brown </li>
-        <li>Inês Da Mata Silva Costa </li>
-        <li>Manryan Hothi </li>
-        <li>Kamila Khe </li>
-        <li>Lulu Pelzer </li>
-        <li>Jake Wallace </li>
-        <li>Thomas Woolley </li>
-    </ul>
-
-    <h2>Document Links</h2>
+    <!-- Links for all deliverables-->
+    <section id="deliverables">
+        <h2>Deliverables</h2>
         <p>
-            We will link all of our pdf documents here.<br>  
-            I will also style the website later on.
+            Links for all deliverables are provided below in pdf form.
         </p>
-        <a href="docs\Arch1.pdf" target="_blank">Architecture </a><br>
-        <a href="docs\Impl1.pdf" target="_blank">Implementation </a><br>
-        <a href="docs\Plan1.pdf" target="_blank">Planning </a><br>
-        <a href="docs\Req1.pdf" target="_blank">Requirements </a><br>
-        <a href="docs\Risk1.pdf" target="_blank">Risk Management </a><br>
+        <a href="deliverables\Arch1.pdf" target="_blank">Architecture </a><br>
+        <a href="deliverables\Impl1.pdf" target="_blank">Implementation </a><br>
+        <a href="deliverables\Plan1.pdf" target="_blank">Planning </a><br>
+        <a href="deliverables\Req1.pdf" target="_blank">Requirements </a><br>
+        <a href="deliverables\Risk1.pdf" target="_blank">Risk Management </a><br>
 
-    <h2>Executable JAR file</h2>
-        <a href="Downloads\our-java-project.JAR" target="_blank">Executable JAR </a><br>
+    </section>
+    
+    <!-- Link to Gantt Charts page -->
+    <section id="gantt charts"
+>
+        <h2>Gantt Charts</h2>
+        <p>
+            Gantt charts showcasing weekly planning can be found here.
+        </p>
+        <button class="button" onclick="window.location.href='\gantt-charts.html'">Download Gantt Charts</button><br>
+    </section>
 
-    <h2>GitHub Repository</h2>
-        <a href="" target="_blank">GitHub </a><br>
+     
+    <!-- Download link for executable JAR. -->
+
+    <section id="jar-download">
+            <h2>Executable JAR file</h2>
+            <button class="button" onclick="window.location.href='Downloads\our-java-project.JAR'">Download Executable JAR</button><br>
+    </section>
+
+    <!-- Link to GitHub Repository -->
+    <section id="github-link">
+            <h2>GitHub Repository</h2>
+            <button class="button" onclick="window.location.href='https://github.com/AXSurname/team18-eng1-private-codebase'">GitHub Repository</button>
+    </section>
+    
+    <!-- List of Team Members -->
+    <section id="team-names">
+        <h2>Team Members</h2>
+        <ul>
+            <li>Aidan Brown </li>
+            <li>Inês Da Mata Silva Costa </li>
+            <li>Manryan Hothi </li>
+            <li>Kamila Khe </li>
+            <li>Lulu Pelzer </li>
+            <li>Jake Wallace </li>
+            <li>Thomas Woolley </li>
+        </ul>
+    </section>
 
 </body>
+<footer>
+    <p>&copy; 2026 Team 18</p>
+</footer>
 </html>

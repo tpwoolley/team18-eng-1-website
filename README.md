@@ -1,6 +1,6 @@
 # Team 18 ENG 1 Group Project Website
 Our groups website for the ENG1 group project. 
-URL: https://tpwoolley.github.io/Team18.io/
+URL: https://tpwoolley.github.io/team18-eng-1-website/
 
 ## Contributing
 

@@ -4,6 +4,13 @@ body {
     background-color: #290b21;
 }
 
+body.gantt-page {
+    background-color: #fff;
+    text-align: left;
+}
+
+
+
 header {
     background-color: #290b21;
     color: #fff;

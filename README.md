@@ -6,8 +6,8 @@ URL: https://tpwoolley.github.io/team18-eng-1-website/
 
 ## Roadmap
     - [x] Initial Layout and design.
-    - [ ] Style Website
-    - [ ] Feedback
+    - [x] Style Website
+    - [x] Feedback
     - [ ] Add final documents and links
     - [ ] Publish final website
 

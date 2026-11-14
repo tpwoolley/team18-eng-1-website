@@ -5,11 +5,9 @@ body {
 }
 
 body.gantt-page {
-    background-color: #fff;
+    background-color: #290b21;
     text-align: center;
 }
-
-
 
 header {
     background-color: #290b21;
@@ -43,6 +41,13 @@ section {
     border-radius: 10px;
 }
 
+section#gantt-charts {
+    margin: 20px 50px 20px 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
 ul {
     list-style-type: circle;
     margin: 10px;
@@ -69,12 +74,4 @@ ul::marker {
     background-color: #fcdcff;
     color: #290b21;
     border: 2px solid #290b21;
-}
-
-.box {
-    background-color: #fcdcff;
-    border: 2px solid #290b21;
-    padding: 20px;
-    margin: 20px 50px 20px 50px;
-    border-radius: 10px;
 }

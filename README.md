@@ -8,8 +8,8 @@ URL: https://tpwoolley.github.io/team18-eng-1-website/
     - [x] Initial Layout and design.
     - [x] Style Website
     - [x] Feedback
-    - [ ] Add final documents and links
-    - [ ] Publish final website
+    - [x] Add final documents and links
+    - [x] Publish final website
 
 ## Team Members 
     - Aidan Brown

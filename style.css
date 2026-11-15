@@ -9,6 +9,11 @@ body.gantt-page {
     text-align: center;
 }
 
+body.uml-page {
+    background-color: #290b21;
+    text-align: center;
+}
+
 header {
     background-color: #290b21;
     color: #fff;
@@ -41,12 +46,23 @@ section {
     border-radius: 10px;
 }
 
-section#gantt-charts {
+section#images {
     margin: 20px 50px 20px 50px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
+    box-sizing: border-box;
+    max-width: calc(100% - 100px);
 }
+
+section#images img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
 
 ul {
     list-style-type: circle;

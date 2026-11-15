@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #290b21;
+    font-family: Arial, sans-serif;
 }
 
 body.gantt-page {
